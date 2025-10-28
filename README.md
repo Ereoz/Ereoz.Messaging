@@ -1,0 +1,2 @@
+# Ereoz.Messaging
+Messaging service.
