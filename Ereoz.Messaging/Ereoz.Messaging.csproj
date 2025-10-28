@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.0;net40</TargetFrameworks>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageId>Ereoz.Messaging</PackageId>
+		<Title>Messaging</Title>
+		<Authors>Ereoz</Authors>
+		<Description>Messaging service</Description>
+		<Copyright>Denis Plotnikov</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Ereoz/Ereoz.Messaging</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Ereoz/Ereoz.Messaging</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="." />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ereoz.Abstractions" Version="0.*" />
+	</ItemGroup>
+
+</Project>
